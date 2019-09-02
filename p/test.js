@@ -60,7 +60,7 @@ function search(route) {
 console.log(folderList)
     folderList.forEach(folder=>{
 
-        let newPath = route+'/'+folder
+        let newPath = route +'/'+ folder
 
 
         if (String(folder).toUpperCase().includes("README"))
